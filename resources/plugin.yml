@@ -1,0 +1,13 @@
+name: JaggySpawn
+main: org.jaggy.spawn.Main
+version: 1.0-SNAPSHOT
+author: Quirkylee
+
+commands:
+   jsetspawn:
+      description: sets spawn location
+      usage: /jsetspawn
+permissions:
+    jaggyspawn.admin:
+        description: Gives access to set spawn command.
+        default: op
